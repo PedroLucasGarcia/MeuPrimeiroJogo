@@ -21,6 +21,8 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"macros","order":1,"path":"scripts/macros/macros.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
+    {"name":"oCam","order":2,"path":"objects/oCam/oCam.yy",},
   ],
 }

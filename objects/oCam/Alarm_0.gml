@@ -1,0 +1,1 @@
+window_center(); // Centraliza a janela
