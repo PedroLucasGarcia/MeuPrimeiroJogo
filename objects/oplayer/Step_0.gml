@@ -1,10 +1,13 @@
-// Controles (wasd) ou (setas)
+#region Controles
+// (wasd) ou (setas)
 var _left	=	keyboard_check(ord("A")) || keyboard_check(vk_left);
 var _right	=	keyboard_check(ord("D")) || keyboard_check(vk_right);
 var _up		=	keyboard_check(ord("W")) || keyboard_check(vk_up);
 var _down	=	keyboard_check(ord("S")) || keyboard_check(vk_down);
 var _jump	=	keyboard_check(vk_space);
+#endregion
 
+#region Movimentação
 var _move = _right - _left != 0; // Se minha movimentação for diferente de 0
 
 vspd += grv; // Aplicando gravidade
@@ -21,6 +24,4 @@ else  // Se não, eu fico parado!
 }
 
 hspd = lengthdir_x(move_spd, move_dir) // Move o x para uma direção e uma quantidade 
-
-x += hspd;
-y += vspd;
+#endregion

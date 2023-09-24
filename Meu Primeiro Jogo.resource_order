@@ -16,10 +16,11 @@
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Enemy","order":1,"path":"folders/Sprites/Enemy.yy",},
-    {"name":"Player","order":2,"path":"folders/Sprites/Player.yy",},
     {"name":"Level","order":3,"path":"folders/Sprites/Level.yy",},
+    {"name":"Player","order":2,"path":"folders/Sprites/Player.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
   ],
 }
