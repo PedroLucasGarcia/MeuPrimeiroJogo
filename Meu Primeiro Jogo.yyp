@@ -39,6 +39,8 @@
   "resources": [
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
+    {"id":{"name":"oplayer","path":"objects/oplayer/oplayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
