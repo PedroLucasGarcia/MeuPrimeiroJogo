@@ -4,7 +4,7 @@ var _left	=	keyboard_check(ord("A")) || keyboard_check(vk_left);
 var _right	=	keyboard_check(ord("D")) || keyboard_check(vk_right);
 var _up		=	keyboard_check(ord("W")) || keyboard_check(vk_up);
 var _down	=	keyboard_check(ord("S")) || keyboard_check(vk_down);
-var _jump	=	keyboard_check(vk_space);
+var _jump	=	keyboard_check_pressed(vk_space);
 #endregion
 
 #region Movimentação
@@ -24,4 +24,24 @@ else  // Se não, eu fico parado!
 }
 
 hspd = lengthdir_x(move_spd, move_dir) // Move o x para uma direção e uma quantidade 
+#endregion
+
+#region Pulo
+var _ground = (place_meeting(x, y+1, oWall)); // Variável do chão
+
+if (_ground) // Se eu estiver no chão
+{
+	coyote_time = coyote_time_max;
+}
+else // Se eu não estiver no chão
+{
+	coyote_time --;
+}
+
+if(_jump and coyote_time > 0) // Se eu pular
+{
+	coyote_time = 0;
+	vspd = 0;
+	vspd -= jump_height;
+}
 #endregion
