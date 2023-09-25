@@ -14,4 +14,7 @@ jump_height = 6; // Altura do pulo
 coyote_time = 0; // Permite que eu pule fora da plataforma
 coyote_time_max = 10; // Máximo que eu posso pular fora da plataforma
  
+ x_scale = 1; // Escala x
+ y_scale = 1; // Escala y
+ 
  state = player_state_free; // Estado do player

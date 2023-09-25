@@ -31,7 +31,7 @@ function player_state_free()
 
 	if (hspd != 0) // Virar personagem
 	{
-		image_xscale = sign(hspd);
+		x_scale = sign(hspd);
 	}
 	#endregion
 
