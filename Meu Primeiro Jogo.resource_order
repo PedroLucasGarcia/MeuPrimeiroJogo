@@ -18,6 +18,7 @@
     {"name":"Enemy","order":1,"path":"folders/Sprites/Enemy.yy",},
     {"name":"Level","order":3,"path":"folders/Sprites/Level.yy",},
     {"name":"Player","order":2,"path":"folders/Sprites/Player.yy",},
+    {"name":"player_scripts","order":2,"path":"folders/Scripts/player_scripts.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},

@@ -29,6 +29,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Sprites/Enemy.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Level","folderPath":"folders/Sprites/Level.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player_scripts","folderPath":"folders/Scripts/player_scripts.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -45,6 +46,7 @@
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
+    {"id":{"name":"player_states","path":"scripts/player_states/player_states.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

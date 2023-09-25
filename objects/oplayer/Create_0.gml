@@ -10,7 +10,8 @@ move_spd_max = 3.0; // Velocidade máxima da movimentação
 acc = 0.3; // Aceleração
 dcc = 0.3; // Desaceleração
 
-jump_height = 6;
-coyote_time = 0;
-coyote_time_max = 10;
+jump_height = 6; // Altura do pulo
+coyote_time = 0; // Permite que eu pule fora da plataforma
+coyote_time_max = 10; // Máximo que eu posso pular fora da plataforma
  
+ state = player_state_free; // Estado do player
