@@ -1,6 +1,6 @@
 camera_set_view_size(view_camera[VIEW], VIEW_WIDTH, VIEW_HEIGHT); // Seta o tamanho da câmera
 
-if(instance_exists(~global.view_target)) // Se o objeto que a câmera vai seguir existe
+if(instance_exists(global.view_target)) // Se o objeto que a câmera vai seguir existe
 {
 	var x_to = global.view_target.x - VIEW_WIDTH / 2; // Para onde o x da câmera vai
 	var y_to = global.view_target.y - VIEW_HEIGHT / 2; // Para onde o y da câmera vai
