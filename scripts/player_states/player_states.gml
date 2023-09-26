@@ -27,7 +27,7 @@ function player_state_free()
 		move_spd = approach(move_spd, 0, dcc);
 	}
 	
-	can_move = approach(can_move, 0, .4); // Depois de pular ele zera o can_move
+	can_move = approach(can_move, 0, .4) // Depois de pular ele zera o can_move
 
 	if (can_move <= 0) 
 	{
@@ -75,6 +75,7 @@ function player_state_free()
 			//sprite_index = sPlayerWall			// COLOCAR SPRITE
 			vspd = 1;
 		}
+
 		if (_jump) // Se eu pular
 		{
 			coyote_time = 0;
